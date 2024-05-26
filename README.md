@@ -7,6 +7,7 @@ Home Page
 
 ![image](https://github.com/Karthikg1908/Toll-Collection-License-Plate-Recognition-System/assets/86306862/ea1cca46-ac7e-4dbd-9e1d-248a4fc38170)
 
+Instructions Window
 ![image](https://github.com/Karthikg1908/Toll-Collection-License-Plate-Recognition-System/assets/86306862/d12f6e42-f035-43a4-b53f-f15ff97ed5bc)
 
 ![image](https://github.com/Karthikg1908/Toll-Collection-License-Plate-Recognition-System/assets/86306862/aa9c3b0e-9c00-4ad0-8266-6dc0714503bc)
