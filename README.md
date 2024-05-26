@@ -1,6 +1,9 @@
 # Toll-Collection-License-Plate-Recognition-System
+Starting Window
 
 ![image](https://github.com/Karthikg1908/Toll-Collection-License-Plate-Recognition-System/assets/86306862/a4648101-20d7-426d-a24e-4dbbb753baaa)
+
+Home Page
 
 ![image](https://github.com/Karthikg1908/Toll-Collection-License-Plate-Recognition-System/assets/86306862/ea1cca46-ac7e-4dbd-9e1d-248a4fc38170)
 
