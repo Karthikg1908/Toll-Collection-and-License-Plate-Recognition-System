@@ -59,7 +59,7 @@ Use the keyboard as described in the code comments:
 
 ---
 
-#Check The Result
+## Check The Result
 
 Starting Window
 
