@@ -1,7 +1,3 @@
-# Toll-Collection-License-Plate-Recognition-System
-
-Certainly! Here is the formatted README content suitable for a GitHub repository:
-
 ---
 
 # Toll Collection System
