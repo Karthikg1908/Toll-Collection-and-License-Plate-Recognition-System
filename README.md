@@ -63,7 +63,7 @@ Use the keyboard as described in the code comments:
 
 Starting Window
 
-![image](https://github.com/Karthikg1908/Toll-Collection-License-Plate-Recognition-System/assets/86306862/a4648101-20d7-426d-a24e-4dbbb753baaa)
+![image](https://github.com/Karthikg1908/Toll-Collection-and-License-Plate-Recognition-System/assets/86306862/bacce3bf-e68e-4ef6-88e1-503b35c2e2c5)
 
 Home Page
 
