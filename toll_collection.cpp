@@ -63,8 +63,12 @@ int numVehicles = 0;
 
 // Project details
 const char* projectName = "Toll Collection & License Plate Recognition System";
-const char* studentName = "Karthik G";
-const char* guideName = "-------";
+ const char* studentName = "Karthik G";
+const char* guideName = "Prof. Usha M";
+const char* teammate1 = "   Karthik G";
+const char* teammate2 = "   Abhishek B C";
+const char* teammate3 = "   Prashanth";
+const char* teammate4 = "   Lakshminarsimha P K";
 
 // Function declarations
 Mat preprocessImage(Mat img);
@@ -349,7 +353,7 @@ void drawPrices() {
 // Function to process image
 void processImage() {
     // Load the image
-    Mat image = imread("/home/karthi/Documents/number_plate.jpeg");
+    Mat image = imread("/home/karthi/Documents/n3.jpeg");
     if (image.empty()) {
         printf("Error: Could not read the image.\n");
         return;
@@ -373,6 +377,16 @@ void startCountdown() {
     countdownStarted = true;
 }
 
+// Function to display teammate names
+void displayTeammates() {
+    drawText(10, windowHeight - 80, "Project Developed By:");
+    drawText(10, windowHeight - 100, teammate1);
+    drawText(10, windowHeight - 120, teammate2);
+    drawText(10, windowHeight - 140, teammate3);
+    drawText(10, windowHeight - 160, teammate4);
+}
+
+
 // Display callback function
 void display() {
     glClear(GL_COLOR_BUFFER_BIT);
@@ -380,13 +394,14 @@ void display() {
     if (!countdownStarted) {
         // Display project details and countdown
         drawText(10, windowHeight - 20, projectName);
-        drawText(windowWidth / 2 - 100, windowHeight / 2, "Designed by: ");
+        drawText(windowWidth / 2 - 100, windowHeight / 2, "Designed by : ");
         drawText(windowWidth / 2 + 50, windowHeight / 2, studentName);
-        drawText(windowWidth / 2 - 100, windowHeight / 2 - 20, "Guide Name: ");
+        drawText(windowWidth / 2 - 100, windowHeight / 2 - 20, "Under the guidance of : ");
         drawText(windowWidth / 2 + 50, windowHeight / 2 - 20, guideName);
         char countdownText[50];
         sprintf(countdownText, "Starting in %d seconds...", countdownTime);
         drawText(windowWidth / 2 - 70, windowHeight / 2 - 50, countdownText);
+        displayTeammates(); // Call to display teammates
     } else {
         if (showInstructions) {
             drawInstructions(); // Display instructions if needed
@@ -518,6 +533,3 @@ int main(int argc, char** argv) {
     glutMainLoop();
     return 0;
 }
-
-
-
